@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: #23252C;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cardcontainer{
+  /* height: 700px; */
+  width: 290px;
+  /* background-color: white; */
+  border-radius: 10px;
+  background-color: #1A1B21;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainimage{
+  width: 290px;
+  background-color: rgb(219, 175, 0);
+  border-radius: 10px 10px 0px 0px;
+  border: 0px solid black;
+}
+
+.name{
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+.skill{
+  color: #F3BF99;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 8px;
+
+
+}
+
+.website{
+  color: #F5F5F5;
+  font-size: 10.24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+
+
+}
+.buttoncontainer{
+  display: flex;
+  gap: 17px;
+
+}
+
+button{
+  width: 110px;
+  height: 34px;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+  
+}
+
+.email{
+  background-color: #D1D5DB;
+
+}
+
+.linkedin{
+  background-color: #5093E2;
+  color: white;
+  font-weight: 500;
+
+}
+
+.main{
+  padding-left: 27px;
+  padding-right: 27px;
+  margin-top: 25px;
+
+}
+
+.heading{
+  font-size: 16px;
+  color: #F5F5F5;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.content{
+  font-size: 10.24px;
+  color: #dcdcdc;
+  font-weight: 200;
+  margin-bottom: 27px;
+  line-height: 16px;
+}
+
+
+footer{
+  width: 100%;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.icons{
+  width: 25px;
+}
+
